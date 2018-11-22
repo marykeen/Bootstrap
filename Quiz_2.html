@@ -9,11 +9,15 @@
     
 </head>
 <body>
-    <div class="container-fluid px-0">
+    
        <nav class="navbar navbar-dark navbar-expand-lg" style="background-color: purple;">
+        <div class="container-fluid">
         <a class="navbar-brand ml-2" href="#">
             <img src="bootstrap-stack.png" style="height: 5%;" alt="logo">
         </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
 
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto ">
@@ -42,15 +46,16 @@
                 </li>     
 
             </ul>
+        </div>
             <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-warning my-2 my-sm-0" type="button">Download</button>
                   </form>
 
-        </div>
+    </div>
        </nav>
 
-       <div id="carousel_slide" class="carousel slide mx-auto" data-ride="carousel" style="width:50%; height:30%;">
+       <div id="carousel_slide" class="carousel slide mx-auto mt-3" data-ride="carousel" style="width:50%;">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img class="d-block w-100" src="unsplash.jpg" alt="First slide">
@@ -84,10 +89,21 @@
                   </a>
         </div>
 
-    </div>
-    
+        <h2 class="py-2 text-center">Our Core Values</h2>
+        <div class="row py-3 px-5">
+            <div class="col-3 bg-primary h-auto"> <h2 class="display-4-md">Service</h2> <img src="unsplash2.jpg" class="img-fluid"></div>
+            <div class="col-3 bg-warning h-auto">  <h2 class="display-4-md">Excellence</h2>  <img src="unsplash5.jpg" class="img-fluid"></div>
+            <div class="col-3 bg-primary h-auto">  <h2 class="display-4-md">Integrity</h2>  <img src="unsplash.jpg" class="img-fluid"></div>
+            <div class="col-3 bg-warning h-auto">  <h2 class="display-4-md">Care</h2><img src="unsplash4.jpg" class="img-fluid"></div>
+        </div>
 
-
+    <footer class="container-fluid" style="background-color: purple;">
+            <div class="row">
+              <div class="col">
+                <p class="text-center">Design by <a href="#">Mary Abiodun</a></p>
+              </div>
+            </div>
+          </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
